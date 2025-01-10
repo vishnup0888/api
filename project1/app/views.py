@@ -71,4 +71,5 @@ def fun1(req,pk):
     elif req.method=='DELETE':
         demo.delete()
         return Response(status=status.HTTP_204_NO_CONTENT) 
+    
              
